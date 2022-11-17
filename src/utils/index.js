@@ -31,11 +31,19 @@ registerShape('point', 'cloud', {
   }
 })
 
-export const wordCloudCanvasGenerator = (data, width, height) => {
+export const wordCloudCanvasGenerator = (data, width, height, category = 'all') => {
   const dv = new DataSet.View().source(data)
   const range = dv.range('value')
   const min = range[0]
   const max = range[1]
+  if (category !== 'all') {
+    dv.transform({
+      type: 'filter',
+      callback (row) {
+        return row.category === category
+      }
+    })
+  }
   dv.transform({
     type: 'tag-cloud',
     fields: ['x', 'value'],

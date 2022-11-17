@@ -7,9 +7,11 @@
 
 <script>
 import WordCloud from './components/WordCloud'
+import vuetify from '@/plugins/vuetify'
 
 export default {
   name: 'App',
+  vuetify,
   components: {
     WordCloud
   }

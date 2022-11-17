@@ -1,0 +1,142 @@
+{
+  "id": "wordCloud_2",
+  "groupId": "group_2",
+  "description": "Word cloud",
+  "type": "DOC",
+  "cardType": "wordCloud",
+  
+  "items": [
+      {
+      "type": "DOC",
+      "metadata": {},
+      "values": [
+          {
+          "key": "entityId",
+          "value": "V_b08853d84407439f952c6f641b365984"
+          },
+          {
+          "key": "entityConcept",
+          "value": "http://huha.com/minimal#organization"
+          },
+          {
+          "key": "entityTitle",
+          "value": "Swissgrid"
+          },
+          {
+          "key": "count",
+          "value": 15
+          }
+      ]
+      },
+      {
+      "type": "DOC",
+      "metadata": {},
+      "values": [
+          {
+          "key": "entityId",
+          "value": "V_b08853d84407439f952c6f641b365984"
+          },
+          {
+          "key": "entityConcept",
+          "value": "http://huha.com/minimal#organization"
+          },
+          {
+          "key": "entityTitle",
+          "value": "UBS"
+          },
+          {
+          "key": "count",
+          "value": 14
+          }
+      ]
+      },
+      {
+      "type": "DOC",
+      "metadata": {},
+      "values": [
+          {
+          "key": "entityId",
+          "value": "V_b08853d84407439f952c6f641b365984"
+          },
+          {
+          "key": "entityConcept",
+          "value": "http://huha.com/minimal#organization"
+          },
+          {
+          "key": "entityTitle",
+          "value": "Credit Suisse"
+          },
+          {
+          "key": "count",
+          "value": 10
+          }
+      ]
+      },
+      {
+      "type": "DOC",
+      "metadata": {},
+      "values": [
+          {
+          "key": "entityId",
+          "value": "V_b08853d84407439f952c6f641b365984"
+          },
+          {
+          "key": "entityConcept",
+          "value": "http://huha.com/minimal#organization"
+          },
+          {
+          "key": "entityTitle",
+          "value": "ALSO Holding"
+          },
+          {
+          "key": "count",
+          "value": 5
+          }
+      ]
+      },
+      {
+      "type": "DOC",
+      "metadata": {},
+      "values": [
+          {
+          "key": "entityId",
+          "value": "V_b08853d84407439f952c6f641b365984"
+          },
+          {
+          "key": "entityConcept",
+          "value": "http://huha.com/minimal#organization"
+          },
+          {
+          "key": "entityTitle",
+          "value": "Ascom"
+          },
+          {
+          "key": "count",
+          "value": 4
+          }
+      ]
+      },
+      {
+      "type": "DOC",
+      "metadata": {},
+      "values": [
+          {
+          "key": "entityId",
+          "value": "V_b08853d84407439f952c6f641b365984"
+          },
+          {
+          "key": "entityConcept",
+          "value": "http://huha.com/minimal#organization"
+          },
+          {
+          "key": "entityTitle",
+          "value": "Bâloise"
+          },
+          {
+          "key": "count",
+          "value": 5
+          }
+      ]
+      }
+  ]
+}

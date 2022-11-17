@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld/>
+    <WordCloud/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import WordCloud from './components/WordCloud'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    WordCloud
   }
 }
 </script>
